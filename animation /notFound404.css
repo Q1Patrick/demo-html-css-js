@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial ;
+}
+
+body{
+    
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(135deg,#ff9a9e,#fad0c4) ;
+    color: white;
+    text-align: center;
+}
+
+h1{
+    font-size: 100px;
+    letter-spacing: 5px;
+}
+
+p{
+    margin: 15px 0;
+    font-size: 18px;
+}
+/* Button */
+a{
+    display: inline-block;
+    margin:20px;
+    padding: 12px 25px;
+
+    background:white ;
+    color:#ff9a9e;
+    border-radius: 30px ;
+    text-decoration: none;
+
+    transition:0.3s ;
+}
+
+a:hover{
+    background: black;
+    color: white;
+    transform: scale(1.2);
+}
+
+p{
+    margin: 20px;
+    padding: 0;
+}
+
+.ghost{
+    font-size: 50px;
+    margin-bottom: 20px;
+    animation: fadeIn 2s infinite ease-in-out ;
+}
+
+@keyframes float{
+    0% {transform:translate(0) ;}
+    50% {transform: translateY(-15px);}
+    100% {transform: translateY(0);}
+}
+    /* FADE IN */
+    @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(30px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+  

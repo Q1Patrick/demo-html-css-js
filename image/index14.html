@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My first website</title>
+    </head>
+    <body>
+        <form action="action_page.php" method="POST">
+            <div>
+                <label for="fname">first name:</label>
+                <input type="text" id="fname" name="fname" placeholder="Spongebob" required>
+                </div>
+
+                <br>
+
+                <div>
+                <label for="lname">last name:</label>
+                <input type="text" id="lname" name="lname" placeholder="Squarepants">
+            </div>
+
+            <br>
+            <div>
+                <label for="pass">password:</label>
+                <input type="password" name="pass" id="pass" maxlength="10" required>
+            </div>
+
+            <br>
+            <div>
+                <label for="email">email:</label>
+                <input type="email" name="email" id="email" placeholder="Spants@gmail.com">
+            </div>
+
+            <br>
+            <div>
+                <label for="phone">phone:</label>
+                <input type="tel" name="phone" id="phone" placeholder="(123)-456-7890">
+            </div>
+            
+            <br>
+            <div>
+                <label for="bdate">birthdate:</label>
+                <input type="date" name="bdate" id="bdate" placeholder="Spants@gmail.com">
+            </div>
+
+            <br>
+            <div>
+                <label for="quantity">quantity:</label>
+                <input type="number" name="quantity" id="quantity" min="0" max="99" value="1">
+            </div>
+
+            <div>
+                <label for="title">title:</label>
+
+                <label for="Mr.">Mr.</label>
+                <input type="radio" name="title" id="Mr.">
+
+                <label for="Mrs.">Mrs</label>
+                <input type="radio" name="title" id="Mrs.">
+
+                <label for="PhD.">PhD.</label>
+                <input type="radio" name="title" id="PhD.">
+            </div>
+
+            <br>
+            <div>
+                <label for="payment">payment:</label>
+                <select name="payment" id="payment">
+                    <option value="visa">visa</option>
+                    <option value="mastercard">mastercard</option>
+                    <option value="giftcard">giftcard</option>
+                </select>
+            </div>
+
+            <br>
+            <div>
+                <label for="subscribe">subscribe:</label>
+                <input type="checkbox" name="subscribe" id="subscribe">
+            </div>
+
+            <br>
+            <div>
+                <input type="reset" name="" id="">
+            </div>
+
+            <br>
+            <div>
+                <input type="submit" name="" id="">
+            </div>
+
+        </form>
+    </body>
+</html> 

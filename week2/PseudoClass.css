@@ -1,0 +1,32 @@
+input:focus{
+    border: 2px solid orange;
+    outline: none;
+}
+
+li:nth-child(2){
+    color:red;
+}
+li:first-child{
+    color: blue;
+}
+
+/*
+.hero-text button{
+    padding: 10px 20px;
+    background:orange;
+    border: none;
+    cursor:pointer;
+    transform: 0.3; 
+}
+.hero-text button:hover{
+    transform:s;
+    background-color: black;
+    color: white;
+}
+*/
+button{
+    transition: all 1s ease;
+}
+button:hover{                  
+    transform: rotate(45deg) ;
+}

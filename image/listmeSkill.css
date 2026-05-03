@@ -1,0 +1,41 @@
+.about{
+    display: flex;
+    align-items: center;
+    gap:40px;
+    padding: 50px auto;
+    max-width: 900px;
+
+    background-color: orange;
+    margin: 0;
+}
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+}
+.skill{
+   padding:0px 30px; 
+   font-size: 14px;
+   cursor: pointer;
+   transition: 0.3s;
+   
+}
+.skill:hover{
+    background-color: black;
+    transform: scale(1.1);
+
+}
+.img-about img{
+    width:300px ;
+    border-radius:50px;
+}
+
+.content{
+    flex: 1;
+}
+.content p {
+    margin-bottom: 15px;
+    line-height: 1.5;
+  }
+  

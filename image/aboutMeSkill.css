@@ -1,0 +1,28 @@
+.header{
+    display: flex;
+    background-color: pink;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: black;
+    
+}
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.menu a{
+    color: black;
+    text-decoration: none;
+
+}
+.AboutMe{
+    font-size: 30px;
+    font-weight: bold;
+}
+.footer {
+    background-color: pink;
+    font-weight: bold;
+
+}
