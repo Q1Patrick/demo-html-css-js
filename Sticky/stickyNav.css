@@ -16,7 +16,14 @@
     background: rgba(255,0,0,0.3);
     backdrop-filter: blur(10px);
 
-    /* fallback cho borwser cu` */
+    /* fallback cho borwser cu` 
+        Day la phien ban danh rieng cho trinh duyet WebKit
+        Webkit = engine cua:
+            Safari(Mac, IPhone)
+            Mot so trinh duyet IOS
+        neu k co dong backdrop-filter: blur(10px); thi
+        Chorme chay nhung Safari ko the chay
+    */
     -webkit-backdrop-filter: blur(10px);
 
     z-index: 100;
