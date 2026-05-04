@@ -42,15 +42,17 @@ flex-direction: column;
 }
 
 .card{
-    background: #f4f4f4;
+    background: #24a5bf;
     padding: 15px;
     border-radius: 10px;
-
+    
     transition:0.3s;
 }
 
 .card:hover{
     transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+
 }
 
 .skills li:hover{
@@ -71,3 +73,21 @@ main{
   
     text-align: center;
 }
+
+button{
+    padding: 10px 20px;
+    background: linear-gradient(#9042f5,#d539e3,#c41b7e);
+    border: none;
+    color: white;
+    border-radius: 10px;
+    justify-content: center;
+
+    transition:all 0.3 ease;
+    cursor: pointer;
+}
+
+button:hover{
+    background:linear-gradient(#7924bf,#24bfa5,#7924bf);
+    transform: scale(1.05);
+}
+

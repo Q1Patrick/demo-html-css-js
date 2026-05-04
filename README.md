@@ -43,7 +43,7 @@ Focuses on common week-2 web fundamentals:
 - `3layoutGrid.html` + `3layoutGrid.css`: grid-based layout.
 - `responsiveLayout.html` + `responsiveLayout.css`, `mobile.html` + `mobile.css`: responsive layout and media queries.
 - `porfolioResponsive.html` + `porfolioResponsive.css`: responsive portfolio practice.
-
+- `after_before.html` + `after_before.css` : pseudo-elements (::before, ::after).
 ### `MyPorfolio/`
 - `Portfolio.html` + `Portfolio.css`: a separate portfolio version for mini-project review.
 
