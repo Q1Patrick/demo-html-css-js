@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: Poppins;
+    font-size: 12px;
+    /* Create a counter named 'numbers' and set it to 0
+        Think like this: 
+        numbers = 0 (1)
+    */
+    counter-reset: numbers;
+}
+body{
+    min-height: 100vh;
+    padding: 20px 50px;
+    background-color: black;
+    color: rgb(213,222,228);
+    /*  */
+    overflow: hidden;
+}
+h2{
+    color: white;
+}
+
+ol{
+    margin-top: 10px;
+    padding-left: 30px;
+    list-style: none;
+}
+
+ol li{
+    margin-top: 5px;
+    /* relative : Stays in normal place, but you can move it */
+    position: relative;
+    display: flex;
+    align-items: center;
+    /* +1 each item (1) */
+    counter-increment: numbers;
+}
+
+ol li::before{
+    /* display number */
+    content: counter(numbers);
+
+    border-radius: 50%;
+    height: 16px;
+    width: 16px;
+    background-color: blue;
+    color: white;
+    /* position controls: Where an element is placed on the page
+        Absolute: move relatives to its nearest parent with position
+    */
+    position: absolute;
+    left: -23px;
+    align-items: center;
+    justify-content: center;
+    /*  */
+    font-size: 0.7em;
+
+    font-weight: bold;
+}
+
+button{
+    padding: 1em 3em;
+    /*  */
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    /*  */
+    background:linear-gradient(to right, #2abfff,#0071FF) ;
+    position: relative;
+    /*  */
+    z-index: 0;
+    cursor: pointer;
+}
+
+button::after{
+    content: '';
+    background:linear-gradient(to right, #ffee00,#ffb300) ;
+    height: 100%;
+    width: 0px;
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+
+    /*  */
+    transition: 150ms ease-in-out;
+}
+
+button:hover::after{
+    width: 100%;
+}
+button:hover{
+    color: black;
+}
