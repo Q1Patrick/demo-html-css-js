@@ -1,0 +1,39 @@
+/* Ai nam tren ai dung de xep cac lop lai voi nhau
+Vi du 2 nam tren 1*/
+.container{
+    position: relative;
+    height: 200px;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+.red{
+    background: red;
+    top: 20px;
+    left: 20px;
+    z-index: 1;
+}
+
+.blue{
+    background:blue ;
+    top: 50px;
+    left: 50px;
+    z-index: 2;
+}
+
+.navbar{
+    position:fixed;
+    top: 0;
+    width: 100%;
+    background: orange;
+    z-index: 100;
+}
+
+.content{
+    margin-top: 60px;
+    
+}

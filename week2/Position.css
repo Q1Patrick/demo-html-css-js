@@ -1,0 +1,51 @@
+/* dich xuong + sang phai
+    nhung cho cu van duoc giu
+*/
+.box{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background: orange;
+}
+
+.tooltip{
+    position: absolute;
+    top: -30px;
+    left: 0;
+
+    background: black;
+    color: white;
+    padding: 5px;
+    display: none;
+}
+/* Neu k co position:relative; o lop parent thi no
+se bay lung tung    */
+.parent{
+    position:relative;
+}
+
+.child{
+    position:absolute;
+    top: -30px;
+    left: 0;
+    background:black;
+    color: white;
+}
+/* 
+    Phan tu luon dung yen theo man hinh,
+    khong scroll
+*/
+.btn{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+/* Luc dau binh thuong 
+cham top: dinh' lai.
+*/
+.nav{
+    position: sticky;
+    top: 0;
+    background: orange;
+}
+

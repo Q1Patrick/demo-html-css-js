@@ -1,0 +1,25 @@
+.nav{
+    /* sticky nam tren dau trang */
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+
+    /* Glass effect 
+    backdrop-filter : Ap hieu ung len phan phia sau element
+    blur() : Lam mo`
+    10px = do^. manh. cua blur
+    CSS nay khong lam mo chinh element -> ma no' lam mo nhung~ gi phia sau element
+    */
+    background: rgba(255,0,0,0.3);
+    backdrop-filter: blur(10px);
+
+    /* fallback cho borwser cu` */
+    -webkit-backdrop-filter: blur(10px);
+
+    z-index: 100;
+
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+}
