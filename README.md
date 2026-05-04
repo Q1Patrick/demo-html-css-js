@@ -1,124 +1,124 @@
-# Demo HTML/CSS/JS – Sổ tay ôn tập cho sinh viên năm 2
+# Demo HTML/CSS/JS – Review Notes for a 2nd-Year Student
 
-Đây là repo tổng hợp các bài thực hành HTML/CSS (và một phần JS/media) theo kiểu **học đến đâu làm đến đó**. README này được viết có thể:
+This repository collects HTML/CSS practice files (with a small amount of JS/media), built in a **learn-and-practice** style. This README helps you:
 
-- Nắm nhanh repo có gì.
-- Mở đúng file để ôn đúng chủ đề.
-- Ôn lại lý thuyết cốt lõi trước khi làm bài mới/phỏng vấn/thực hành.
-
----
-
-## 1) Mục tiêu ôn tập
-
-Sau khi ôn repo này, bạn nên làm được:
-
-1. Dựng một trang tĩnh cơ bản bằng HTML semantic.
-2. Style giao diện bằng CSS (box model, selector, pseudo-class).
-3. Làm layout bằng `position`, `z-index`, grid/flex, responsive.
-4. Tạo navbar, portfolio mini, sticky nav, và trang 404 đơn giản.
-5. Biết tách file theo từng chủ đề để dễ bảo trì.
+- Quickly understand what is in the repo.
+- Open the right files for each topic.
+- Review core concepts before new assignments/interviews/practice.
 
 ---
 
-## 2) Cấu trúc repo & học gì ở từng thư mục
+## 1) Review Goals
 
-> Gợi ý: ôn theo đúng thứ tự từ trên xuống dưới.
+After reviewing this repo, you should be able to:
+
+1. Build a basic static page using semantic HTML.
+2. Style a UI using CSS (box model, selectors, pseudo-classes).
+3. Create layouts with `position`, `z-index`, grid/flex, and responsive rules.
+4. Build a simple navbar, mini portfolio, sticky nav, and a 404 page.
+5. Organize files by topic for easier maintenance.
+
+---
+
+## 2) Repository Structure & What to Study
+
+> Tip: Review from top to bottom in this order.
 
 ### `image/`
-Thư mục chứa nhiều file thực hành cơ bản đến trung bình:
+This folder contains beginner-to-intermediate practice files:
 
-- `index.html`, `index1.html` ... `index14.html`: các bài luyện HTML/CSS tổng hợp.
-- `navbar.html` + `navbar.css`: bài luyện thanh điều hướng.
-- `portfolio.html` + `portfolio.css`: bài luyện trang portfolio đơn giản.
-- `aboutMeSkill.html` + `aboutMeSkill.css`, `listMySkill.html` + `listmeSkill.css`: bài luyện nội dung giới thiệu và danh sách kỹ năng.
-- `practice.html`, `practice1.html`, `reworkpractice.html`: các bài làm lại để củng cố.
-- Có cả media (`.png`, `.mp4`, `.mp3`) để thử nhúng ảnh/video/audio.
+- `index.html`, `index1.html` ... `index14.html`: mixed HTML/CSS exercises.
+- `navbar.html` + `navbar.css`: navbar practice.
+- `portfolio.html` + `portfolio.css`: simple portfolio practice.
+- `aboutMeSkill.html` + `aboutMeSkill.css`, `listMySkill.html` + `listmeSkill.css`: profile and skills-list practice.
+- `practice.html`, `practice1.html`, `reworkpractice.html`: revision/rework exercises.
+- Media files (`.png`, `.mp4`, `.mp3`) for image/video/audio embedding practice.
 
 ### `week2/`
-Tập trung vào các chủ đề hay gặp ở tuần 2 của môn Web cơ bản:
+Focuses on common week-2 web fundamentals:
 
 - `Position.html` + `Position.css`: `static`, `relative`, `absolute`, `fixed`, `sticky`.
-- `Z_index.html` + `Z_index.css`: hiểu thứ tự chồng lớp.
-- `PseudoClass.html` + `PseudoClass.css`: `:hover`, `:active`, `:focus`, ...
-- `3layoutGrid.html` + `3layoutGrid.css`: bố cục với Grid.
-- `responsiveLayout.html` + `responsiveLayout.css`, `mobile.html` + `mobile.css`: responsive và media queries.
-- `porfolioResponsive.html` + `porfolioResponsive.css`: kết hợp portfolio + responsive.
+- `Z_index.html` + `Z_index.css`: stacking order.
+- `PseudoClass.html` + `PseudoClass.css`: `:hover`, `:active`, `:focus`, etc.
+- `3layoutGrid.html` + `3layoutGrid.css`: grid-based layout.
+- `responsiveLayout.html` + `responsiveLayout.css`, `mobile.html` + `mobile.css`: responsive layout and media queries.
+- `porfolioResponsive.html` + `porfolioResponsive.css`: responsive portfolio practice.
 
 ### `MyPorfolio/`
-- `Portfolio.html` + `Portfolio.css`: phiên bản portfolio riêng, nên dùng để ôn bài mini-project.
+- `Portfolio.html` + `Portfolio.css`: a separate portfolio version for mini-project review.
 
 ### `Sticky/`
-- `stickyNav.html` + `stickyNav.css`: luyện riêng sticky navigation.
+- `stickyNav.html` + `stickyNav.css`: sticky navigation practice.
 
 ### `rework/`
-- `basic.html`, `nav1.html`, `nav1.css`: các bài refactor/làm lại kiến thức nền.
+- `basic.html`, `nav1.html`, `nav1.css`: refactor/rebuild foundational exercises.
 
 ### `animation /`
-- `notFound404.html` + `notFound404.css`: thực hành trang lỗi 404 và hiệu ứng cơ bản.
+- `notFound404.html` + `notFound404.css`: 404 page and basic animation practice.
 
-> Lưu ý: thư mục này có tên chứa dấu cách (`animation `), khi thao tác terminal nhớ đặt trong dấu nháy kép.
-
----
-
-
-## 3) Checklist kiến thức cần nhớ trước thi/thực hành
-
-- [ ] Phân biệt được block vs inline vs inline-block.
-- [ ] Giải thích được box model và `box-sizing: border-box`.
-- [ ] Dùng được `position` + `z-index` đúng ngữ cảnh.
-- [ ] Biết tạo navbar cơ bản và trạng thái hover.
-- [ ] Biết dùng pseudo-class thông dụng.
-- [ ] Biết dựng layout bằng Grid/Flex.
-- [ ] Biết responsive với media query.
-- [ ] Biết tách HTML/CSS theo module nhỏ.
+> Note: This folder name includes a trailing space (`animation `). Use quotes in terminal commands.
 
 ---
 
-## 4) Cách chạy nhanh trong máy local
+## 3) Pre-Exam / Pre-Practice Knowledge Checklist
 
-Vì đây chủ yếu là file tĩnh, bạn có thể chạy theo 1 trong 2 cách:
-
-### Cách 1: Mở trực tiếp file `.html`
-- Double click file HTML để mở bằng trình duyệt.
-
-### Cách 2 (khuyến nghị): dùng Live Server (VS Code)
-1. Cài extension **Live Server**.
-2. Chuột phải vào file HTML (ví dụ `week2/responsiveLayout.html`).
-3. Chọn **Open with Live Server**.
-
----
-
-## 5) Mẹo học hiệu quả cho sinh viên năm 2
-
-1. **Đừng chỉ đọc code** → hãy sửa code rồi reload ngay để thấy khác biệt.
-2. Mỗi buổi chỉ tập trung 1 chủ đề lớn (vd: chỉ Position).
-3. Sau mỗi bài, tự viết 3 dòng ghi nhớ: "Hôm nay mình hiểu gì?".
-4. Khi bí layout, phác thảo khung trên giấy trước khi code.
-5. Ưu tiên code sạch, đặt class có nghĩa thay vì class khó hiểu.
+- [ ] Understand block vs inline vs inline-block.
+- [ ] Explain the box model and `box-sizing: border-box`.
+- [ ] Use `position` + `z-index` correctly.
+- [ ] Build a basic navbar and hover states.
+- [ ] Use common pseudo-classes correctly.
+- [ ] Build layouts with Grid/Flex.
+- [ ] Make pages responsive with media queries.
+- [ ] Split HTML/CSS into clear modules.
 
 ---
 
-## 6) Bài tập tự luyện thêm (nên làm)
+## 4) Quick Local Run Guide
 
-- Tạo trang CV 1 trang responsive hoàn chỉnh.
-- Tạo navbar có menu mobile (hamburger).
-- Làm 1 landing page đơn giản với 3 section:
+Since this project is mostly static files, use one of these:
+
+### Option 1: Open `.html` directly
+- Double-click an HTML file to open it in your browser.
+
+### Option 2 (Recommended): Use Live Server (VS Code)
+1. Install the **Live Server** extension.
+2. Right-click an HTML file (for example, `week2/responsiveLayout.html`).
+3. Choose **Open with Live Server**.
+
+---
+
+## 5) Effective Study Tips for a 2nd-Year Student
+
+1. **Do not just read code** → edit and reload to see immediate results.
+2. Focus on one big topic per session (for example, only Position).
+3. After each session, write 3 short reflection lines: “What did I understand today?”
+4. Sketch layouts on paper before coding when stuck.
+5. Prefer clean, meaningful class names.
+
+---
+
+## 6) Extra Practice Tasks (Recommended)
+
+- Build a one-page responsive CV.
+- Build a navbar with a mobile hamburger menu.
+- Build a simple landing page with 3 sections:
   - Hero
   - Features
   - Contact
-- Tạo trang 404 đẹp hơn từ `animation /notFound404.*`.
+- Improve the 404 page from `animation /notFound404.*`.
 
 ---
 
-## 7) Định hướng lên năm 3 (nên chuẩn bị từ bây giờ)
+## 7) Preparation for Year 3
 
-Sau khi chắc HTML/CSS, bạn nên học tiếp theo thứ tự:
+After you are confident with HTML/CSS, continue in this order:
 
-1. JavaScript DOM + Event.
-2. ES6+ (`let/const`, arrow function, map/filter, module).
-3. Git/GitHub workflow chuẩn.
-4. 1 framework frontend (React là lựa chọn phổ biến).
-5. Cơ bản về API/JSON và deploy web tĩnh.
+1. JavaScript DOM + Events.
+2. ES6+ (`let/const`, arrow functions, map/filter, modules).
+3. Standard Git/GitHub workflow.
+4. One frontend framework (React is a common choice).
+5. Basic API/JSON usage and static deployment.
 
 ---
 
+Good luck with your revision and keep coding consistently 💪
