@@ -1,0 +1,75 @@
+.hero{
+    background: black;
+    color: white;
+    /* element starts invisible */
+    opacity: 0;
+    filter: blur(10px);
+    transform: translateY(30px);
+
+    animation: smoothReveal 1s ease forwards;
+    /* animation: fadeUp 1s ease forwards; 
+        fadeUp -> animation name
+        1s -> duration
+        ease -> smooth motion
+        forwards -> keep final state
+    */
+}
+@keyframes smoothReveal {
+    to{
+        opacity: 1;
+        transform: translateY(0) scale(1);
+        filter: blur(0);
+    }
+}
+@keyframes fadeUp {
+    to{
+        /* element become fully visible */
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+button{
+    background: black ;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+
+    transform: translateY(30px);
+    animation: fadeUp 1s ease forwards;
+    cursor: pointer;
+}
+
+button:hover{
+    background: pink;
+    color: black;
+}
+
+
+.skill{
+    opacity: 0;
+    transform: translateY(20px);
+    filter: blur(5px);
+    animation: smoothReveal 1s ease forwards;
+}
+
+.skill:nth-child(1){
+    animation-delay:0.2s ;
+}
+
+.skill:nth-child(2){
+    animation-delay:0.4s ;
+}
+
+.skill:nth-child(3){
+    animation-delay: 0.6s;
+}
+
+.skill:nth-child(4){
+    animation-delay: 0.8s;
+}
+
+.skill:hover{
+    transform: scale(1.1);
+    box-shadow: 0 5px 15px rbga(0,0,0,0.3);
+}
