@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    /* the <html> */
+:root{
+    --primary: 250 66% 61%;
+}
+
+body{
+    font-family: "Press Start 2P", system-ui;
+    background-color: hsl(240, 4%, 7%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* BUTTON */
+.btn{
+    /* Reset toan bo CSS mac dinh cua button
+        all: unset = reset full sach se
+    */
+    all: unset;
+    font-size: 18px;
+    padding: 14px 40px;
+    background: black;
+    color: white;
+
+    text-transform: uppercase;
+    position: relative;
+    
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+/* TEXT HOVER */
+.btn:hover span{
+    /* --primary = variable CSS
+        primary = mau chinh'
+    */
+    color: hsl(var(--primary));
+}
+
+/* ANIMATION VARIABLE */
+/* @property (Nang Cao)
+    This is CSS Houdini
+    it allows animate turn into CSS ( bien^')
+    if it don't have property ,The animation don't run 
+*/
+@property --angle{
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}
+
+/* GLOW BORDER */
+.btn::before{
+    content: "";
+    position: absolute;
+    /* mo rong element ra ngoai 2px */
+    inset: -2px;
+
+    border-radius: inherit;
+    /*
+        linear-gradient : theo duong thang
+        radial-gradient : hinh tron
+        conic-gradient : xoay vong
+    */
+    background-image: conic-gradient(
+        from var(--angle),
+        transparent 0%,
+        hsl(var(--primary)),
+        transparent 30%
+    );
+    /* Dung de xep lop */
+    z-index: -1;
+
+    animation: rotate 2s linear infinite;
+}
+
+/* ROTATE ANIMATION */
+@keyframes rotate {
+    from{
+        --angle: 0deg;
+    }
+    to{
+        --angle: 360deg;
+    }
+}
+
+/* background-color: inherit
+    Lay mau tu parent (.btn)
+*/
