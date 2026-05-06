@@ -33,8 +33,6 @@ In real companies:
 ```bash
 main
  ├── feature/dark-mode
-
- 
 ```
 
 Each developer works on a separate branch → no code conflicts.
