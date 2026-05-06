@@ -13,7 +13,7 @@ A responsive portfolio website built with **HTML5** and **CSS3** to showcase my 
 
 #  Preview
 
-![Portfolio Preview](./image/ProfileCard.png)
+![Portfolio Preview](./image/preview.png)
 
 > Replace `preview.png` with your real screenshot inside the `images` folder.
 
@@ -69,13 +69,30 @@ portfolio/
 ├── README.md
 
 ---
-# Guide Run Locally
-clone the project:
-```
+# Run Locally
+
+Clone the project:
+
+```bash
 git clone https://github.com/yourusername/portfolio.git
+```
+
+Go to the project folder:
+
+```bash
+cd MyPortfolio
+```
+
+Install the **Live Server** extension in VSCode.
+
+Open the project with Live Server:
+
+- **Windows:** Press `ALT + L + O`
+- **Mac:** Press `COMMAND + L + O`
+
 ---
 
-# Future Improvement
+# Future Improvements
 
 - Add JavaScript interactions
 - Add dark/light mode toggle
