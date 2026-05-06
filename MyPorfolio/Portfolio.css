@@ -104,3 +104,16 @@ button:hover{
         transform: translateY(0);
     }
 }
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+
+    transition: 0.3s;
+}
+
+img:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,3,0,0.9);
+}

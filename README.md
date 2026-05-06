@@ -1,124 +1,85 @@
-# Demo HTML/CSS/JS – Review Notes for a 2nd-Year Student
+👨‍💻 Author
 
-This repository collects HTML/CSS practice files (with a small amount of JS/media), built in a **learn-and-practice** style. This README helps you:
+Châu Phát
 
-- Quickly understand what is in the repo.
-- Open the right files for each topic.
-- Review core concepts before new assignments/interviews/practice.
+Front-end Developer Student
+Passionate about UI Design and Web Development
 
----
+# 🌐 Personal Portfolio Website
 
-## 1) Review Goals
-
-After reviewing this repo, you should be able to:
-
-1. Build a basic static page using semantic HTML.
-2. Style a UI using CSS (box model, selectors, pseudo-classes).
-3. Create layouts with `position`, `z-index`, grid/flex, and responsive rules.
-4. Build a simple navbar, mini portfolio, sticky nav, and a 404 page.
-5. Organize files by topic for easier maintenance.
+A responsive portfolio website built with **HTML5** and **CSS3** to showcase my projects, skills, and front-end development journey.
 
 ---
 
-## 2) Repository Structure & What to Study
+#  Preview
 
-> Tip: Review from top to bottom in this order.
+![Portfolio Preview](./image/ProfileCard.png)
 
-### `image/`
-This folder contains beginner-to-intermediate practice files:
-
-- `index.html`, `index1.html` ... `index14.html`: mixed HTML/CSS exercises.
-- `navbar.html` + `navbar.css`: navbar practice.
-- `portfolio.html` + `portfolio.css`: simple portfolio practice.
-- `aboutMeSkill.html` + `aboutMeSkill.css`, `listMySkill.html` + `listmeSkill.css`: profile and skills-list practice.
-- `practice.html`, `practice1.html`, `reworkpractice.html`: revision/rework exercises.
-- Media files (`.png`, `.mp4`, `.mp3`) for image/video/audio embedding practice.
-
-### `week2/`
-Focuses on common week-2 web fundamentals:
-
-- `Position.html` + `Position.css`: `static`, `relative`, `absolute`, `fixed`, `sticky`.
-- `Z_index.html` + `Z_index.css`: stacking order.
-- `PseudoClass.html` + `PseudoClass.css`: `:hover`, `:active`, `:focus`, etc.
-- `3layoutGrid.html` + `3layoutGrid.css`: grid-based layout.
-- `responsiveLayout.html` + `responsiveLayout.css`, `mobile.html` + `mobile.css`: responsive layout and media queries.
-- `porfolioResponsive.html` + `porfolioResponsive.css`: responsive portfolio practice.
-- `after_before.html` + `after_before.css` : pseudo-elements (::before, ::after).
-### `MyPorfolio/`
-- `Portfolio.html` + `Portfolio.css`: a separate portfolio version for mini-project review.
-
-### `Sticky/`
-- `stickyNav.html` + `stickyNav.css`: sticky navigation practice.
-
-### `rework/`
-- `basic.html`, `nav1.html`, `nav1.css`: refactor/rebuild foundational exercises.
-
-### `animation /`
-- `notFound404.html` + `notFound404.css`: 404 page and basic animation practice.
-
-> Note: This folder name includes a trailing space (`animation `). Use quotes in terminal commands.
+> Replace `preview.png` with your real screenshot inside the `images` folder.
 
 ---
 
-## 3) Pre-Exam / Pre-Practice Knowledge Checklist
+#  Features
 
-- [ ] Understand block vs inline vs inline-block.
-- [ ] Explain the box model and `box-sizing: border-box`.
-- [ ] Use `position` + `z-index` correctly.
-- [ ] Build a basic navbar and hover states.
-- [ ] Use common pseudo-classes correctly.
-- [ ] Build layouts with Grid/Flex.
-- [ ] Make pages responsive with media queries.
-- [ ] Split HTML/CSS into clear modules.
-
----
-
-## 4) Quick Local Run Guide
-
-Since this project is mostly static files, use one of these:
-
-### Option 1: Open `.html` directly
-- Double-click an HTML file to open it in your browser.
-
-### Option 2 (Recommended): Use Live Server (VS Code)
-1. Install the **Live Server** extension.
-2. Right-click an HTML file (for example, `week2/responsiveLayout.html`).
-3. Choose **Open with Live Server**.
+- Responsive layout for desktop and mobile
+- Modern Hero section
+- Smooth hover effects
+- Animated buttons and skill tags
+- Sticky navigation bar
+- Glassmorphism UI effects
+- CSS transitions and transforms
+- Fade-in animations
+- Flexbox and Grid layouts
 
 ---
 
-## 5) Effective Study Tips for a 2nd-Year Student
+#  Tech Stack
 
-1. **Do not just read code** → edit and reload to see immediate results.
-2. Focus on one big topic per session (for example, only Position).
-3. After each session, write 3 short reflection lines: “What did I understand today?”
-4. Sketch layouts on paper before coding when stuck.
-5. Prefer clean, meaningful class names.
-
----
-
-## 6) Extra Practice Tasks (Recommended)
-
-- Build a one-page responsive CV.
-- Build a navbar with a mobile hamburger menu.
-- Build a simple landing page with 3 sections:
-  - Hero
-  - Features
-  - Contact
-- Improve the 404 page from `animation /notFound404.*`.
+- **HTML5**
+- **CSS3**
+- **Flexbox**
+- **CSS Grid**
+- **Git & GitHub**
 
 ---
 
-## 7) Preparation for Year 3
+#  UI & Animation Practice
 
-After you are confident with HTML/CSS, continue in this order:
+This project includes practice with:
 
-1. JavaScript DOM + Events.
-2. ES6+ (`let/const`, arrow functions, map/filter, modules).
-3. Standard Git/GitHub workflow.
-4. One frontend framework (React is a common choice).
-5. Basic API/JSON usage and static deployment.
+- `transition`
+- `transform`
+- `@keyframes`
+- `::before` and `::after`
+- Hover effects
+- Spinner loading animation
+- Fade-in animations
+- Responsive design
+- Sticky navbar
 
 ---
 
-Good luck with your revision and keep coding consistently 💪
+# Project Structure
+
+```bash
+main folder 
+portfolio/
+│
+├── MyPortfolio
+├── README.md
+
+---
+# Guide Run Locally
+clone the project:
+```
+git clone https://github.com/yourusername/portfolio.git
+---
+
+# Future Improvement
+
+- Add JavaScript interactions
+- Add dark/light mode toggle
+- Improve responsive design
+- Add more animations
+- Create project filtering section
+- Deploy full online portfolio
