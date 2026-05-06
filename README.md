@@ -5,7 +5,7 @@ Châu Phát
 Front-end Developer Student
 Passionate about UI Design and Web Development
 
-# 🌐 Personal Portfolio Website
+# Personal Portfolio Website
 
 A responsive portfolio website built with **HTML5** and **CSS3** to showcase my projects, skills, and front-end development journey.
 
@@ -13,9 +13,9 @@ A responsive portfolio website built with **HTML5** and **CSS3** to showcase my 
 
 #  Preview
 
-![Portfolio Preview](./image/preview.png)
+![Portfolio Preview](./MyPortfolio/preview.png)
 
-> Replace `preview.png` with your real screenshot inside the `images` folder.
+
 
 ---
 
@@ -74,7 +74,7 @@ portfolio/
 Clone the project:
 
 ```bash
-git clone https://github.com/yourusername/portfolio.git
+git https://github.com/Q1Patrick/demo-html-css-js.git
 ```
 
 Go to the project folder:
