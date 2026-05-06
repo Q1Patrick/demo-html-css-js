@@ -13,7 +13,7 @@ A responsive portfolio website built with **HTML5** and **CSS3** to showcase my 
 
 #  Preview
 
-![Portfolio Preview](./MyPortfolio/preview.png)
+![Portfolio Preview](./preview.png)
 
 
 
