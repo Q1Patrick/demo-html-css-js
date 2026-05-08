@@ -1,84 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Châu Thành Phát | Frontend Developer</title>
     <meta charset="UTF-8">
-
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0">
-
-    <title>
-        Professional Portfolio
-    </title>
-
-    <link
-        rel="stylesheet"
-        href="style.css">
+    <meta name="author" content="Châu Thành Phát">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio website of Châu Thành Phát">
+    <meta property="og:title" content="Châu Thành Phát Portfolio">
+    <meta property="og:description" content="Frontend Developer Portfolio Website">
+    <meta property="og:image" content="https://myportfolio.vercel.app/preview.png">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://myportfolio.vercel.app">
+    <link ref="icon" type="image/x-icon" herf="favicon.ico">
+    <link rel="stylesheet" href="ProfileCard.css">
+    <!-- Google Font -->
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
 </head>
-
 <body>
-
-    <section class="hero">
-
-        <!-- LEFT IMAGE -->
-
-        <div class="hero-image">
-
-            <div class="image-circle">
-
-                <img
-                    src="woman.jpg"
-                    alt="Portfolio Profile">
-
+    <div class="main">
+        <div class="profile-card">
+            <!-- Profile Image -->
+            <div class="image">
+                <img src="PhatChau.jpg" alt="Chau Thanh Phat" class="profile-pic">
             </div>
+            <!-- User Data -->
+            <div class="data">
+                <h2>Châu Thành Phát</h2>
+                <span>Frontend Developer</span>
+            </div>
+            <!-- Statistics -->
+            <div class="row">
+                <div class="info">
+                    <h3>2</h3>
+                    <span>Projects</span>
+                </div>
 
+                <div class="info">
+                    <h3>1</h3>
+                    <span>Followers</span>
+                </div>
+
+                <div class="info">
+                    <h3>10</h3>
+                    <span>Posts</span>
+                </div>
+            </div>
+            <!-- Buttons -->
+            <div class="buttons">
+                <a href="https://www.facebook.com/phat.chau.961556" class="btn">Hire Me</a>
+                <a href="#"class="btn">Portfolio</a>
+            </div>
         </div>
-
-
-        <!-- RIGHT CONTENT -->
-
-        <div class="hero-content">
-
-            <!-- DECORATION CIRCLE -->
-
-            <div class="small-circle"></div>
-
-            <h1>
-                Professional <br>
-                Portfolio
-            </h1>
-
-            <h2>
-                Hanna Bobro
-            </h2>
-
-            <span class="job">
-                Graphic Designer
-            </span>
-
-            <p>
-                Here, you'll find a curated
-                collection of my work that
-                reflects my passion for visual
-                storytelling and creative
-                expression. With a strong
-                belief in the power of design
-                to communicate ideas and
-                evoke emotions, I strive to
-                create impactful visuals that
-                resonate with audiences.
-            </p>
-
-        </div>
-
-
-        <!-- DECORATION SHAPES -->
-
-        <div class="bottom-circle"></div>
-
-        <div class="bottom-right-circle"></div>
-
-    </section>
-
+    </div>
 </body>
 </html>
