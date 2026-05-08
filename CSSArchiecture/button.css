@@ -1,0 +1,29 @@
+.btn{
+
+    padding:10px 20px;
+
+    border:none;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    color:white;
+
+    background:
+        linear-gradient(
+            to right,
+            var(--primary-color),
+            var(--secondary-color)
+        );
+
+    transition:0.3s;
+}
+
+.btn:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:
+        0 10px 20px rgba(0,0,0,0.3);
+}

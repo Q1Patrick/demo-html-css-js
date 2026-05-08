@@ -10,7 +10,7 @@ div{
     background-color: rgb(102, 196, 213);
     color: brown;
     font-family: "consolas", "sans-seri";
-    font-style: "italic";
+    font-style: italic;
     font-weight: bold;
     /*text-decoration: cyan dotted underline;*/
     
@@ -46,7 +46,7 @@ p{
     border: 5px solid;
     background-color: pink;
     width: 300px;
-    height: 280px;
+    min-height: 280px;
     color: black;
     font-size: 20px;
     margin-left: auto;

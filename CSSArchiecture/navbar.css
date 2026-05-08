@@ -1,0 +1,16 @@
+.navbar{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:20px;
+
+    background:var(--dark-color);
+}
+
+.logo{
+    color:var(--white-color);
+}
