@@ -25,7 +25,7 @@
     --button-bg: #ff99cc;
     --button-hover:#ff66aa;
     --shadow:
-        0 10px 20px rbga(0,0,0,0.5);
+        0 10px 20px rgba(0,0,0,0.5);
 }
 
 body{
@@ -36,9 +36,14 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: 0.3;
+    transition: 0.3s;
 }
-
+.hero{
+    min-width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .card{
     width: min(90%, 400px);
     background:var(--card-bg) ;
@@ -47,6 +52,25 @@ body{
     box-shadow: var(--shadow);
     transition: 0.3s;
 }
+.about{
+    padding: 80px 20px;
+}
+.about-content{
+    max-width: 800px;
+    margin: auto;
+}
+
+.about h2{
+    font-size: clamp(32px,5vw,48px);
+    margin-bottom: 20px;
+}
+
+.about p{
+    line-height: 1.7;
+    opacity: 0.8;
+    font-size: 18px;
+}
+
 .card h1{
     margin-bottom: 10px;
     font-size: clamp(28px,5vw,40px);
